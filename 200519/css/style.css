@@ -1,0 +1,43 @@
+.container{
+    width:1170px;
+    margin: 0 auto;
+
+}
+.container .content{
+   height: 60px;
+   display:none;
+
+}
+
+
+
+.section{justify-content: start;
+   height: 40px;
+    background-color:#f1f1f1;
+    font-size: 20px;
+    color:rgba(20, 19, 19, 0.562);
+   position:relative;
+   cursor: pointer;
+   
+}
+
+h1 span{
+    position: absolute;
+    right: 10px;
+    top:8px;
+
+
+}
+.active_section{
+    background-color:#777 !important;
+}
+
+.section:hover{
+
+    background-color:#777 !important
+}
+.close_content{
+   display:block !important;
+
+
+}
